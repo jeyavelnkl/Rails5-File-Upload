@@ -1,0 +1,24 @@
+development:
+  SECRET_KEY_BASE: "14e5b50f8120e346c65ca9146dccd1683d65411a6051b5da43ecdbe0ba6659d8888e05bc0ba45edf69f538996f0560a3bf3587cf88d6e082f3c5f269f97e4d0c"
+  DB_NAME: "development"
+  DB_HOST: "localhost"
+  DB_PORT: "3306"
+  DB_USERNAME: "root"
+  DB_PASSWORD: "a"
+  
+test:
+  SECRET_KEY_BASE: "689fa8b3ce2aaa454313c8e63480f6679a437cd789a5339cec84371984ee11bc839fca86812c57bfbd9679e664b7aa61ed09f97bf671bb03b25a1e68e2a1954d"
+  DB_NAME: "test"
+  DB_HOST: "localhost"
+  DB_PORT: "3306"
+  DB_USERNAME: "root"
+  DB_PASSWORD: "a"
+  
+  
+production:
+  SECRET_KEY_BASE: "e83a0a66d3b845f3d660d6147f5f2544a54b610f5b3a9e79c4382cc54c63ed11d5e717a4ba10217fe2e110738c38f563cf5800f7d6f986e17d2197d396ccbc3c"
+  DB_NAME: "production"
+  DB_HOST: "localhost"
+  DB_PORT: "3306"
+  DB_USERNAME: "root"
+  DB_PASSWORD: "a"  
