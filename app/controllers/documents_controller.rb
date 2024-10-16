@@ -10,9 +10,7 @@ class DocumentsController < ApplicationController
   # GET /documents/1
   # GET /documents/1.json
   def show
-    send_data(@document.file_contents,
-              type: @document.content_type,
-              filename: @document.filename)
+    send_data(@document.file_contents, type: @document.content_type, filename: @document.filename)
   end
 
   # GET /documents/new
